@@ -11,7 +11,7 @@ const Home = () => {
         className="w-full h-full flex justify-center items-center CUSTOM-BG-HOME"
       >
         <div
-          className="flex items-center justify-center w-full"
+          className="flex items-center justify-center w-full h-full"
         >
           <img src="/logo.webp" alt="logo-img" className=" 
             h-32 w-32 
