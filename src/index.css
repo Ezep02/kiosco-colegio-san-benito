@@ -25,7 +25,7 @@
 }
 
 .sppining-text p {
-    color: #f7a34f;
+    color: #fe9e3e;
     
     font-weight: 500;
 }
@@ -63,8 +63,8 @@
 }
 
 .CUSTOM-BG-HOME-2 {
-  background: rgb(24,24,24);
-  background: linear-gradient(152deg, rgba(24,24,24,1) 0%, rgba(41,41,37,1) 100%);
+  background: rgb(145,145,145);
+  background: radial-gradient(circle, rgba(145,145,145,1) 0%, rgba(148,148,148,1) 46%, rgba(255,255,255,1) 100%);
 }
 
 

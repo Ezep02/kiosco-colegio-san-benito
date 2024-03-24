@@ -7,25 +7,20 @@ const Home = () => {
   return (
     <div
       className="
-        h-screen w-full flex flex-col justify-center xl:flex-row lg:flex-row md:flex-row
-      "
+        h-screen w-full flex flex-col justify-center xl:flex-row lg:flex-row md:flex-row"
     >
       <div
-        className="
-          w-full h-full flex justify-center items-center CUSTOM-BG-HOME 
-        "
+        className="w-full h-full flex justify-center items-center CUSTOM-BG-HOME"
       >
         <div
-          className="
-            flex items-center justify-center w-full 
-          "
+          className="flex items-center justify-center w-full"
         >
           <img src="/logo.webp" alt="logo-img" className="w-52 h-52" />
         </div>
       </div>
 
       <div
-        className="w-full h-full CUSTOM-BG-HOME-2 grid gap-2 p-4 sm:p-1 rounded-t-3xl 
+        className="w-full h-full CUSTOM-BG-HOME-2 grid gap-3 p-4 sm:p-1 rounded-t-3xl 
         xl:rounded-none lg:rounded-none md:rounded-none sm:rounded-none
         xl:grid-rows-12 xl:grid-cols-12
         lg:grid-rows-12 lg:grid-cols-12
@@ -34,12 +29,11 @@ const Home = () => {
       "
       >
         <div
-          className="CUSTOM-BG-HOME rounded-xl flex items-center justify-center gap-2 p-2
+          className="bg-neutral-950 rounded-xl flex items-center justify-center gap-2 p-2
             xl:col-start-1 xl:col-end-13 xl:row-start-2 xl:row-end-4
             lg:col-start-1 lg:col-end-13 lg:row-start-1 lg:row-end-3
             md:col-start-1 md:col-end-13 md:row-start-1 md:row-end-3
-            sm:col-start-1 sm:col-end-13 sm:row-start-1 sm:row-end-4
-
+            sm:col-start-1 sm:col-end-13 sm:row-start-1 sm:row-end-3
           "
         >
           <i className="text-orange-400 text-3xl py-3">
@@ -49,11 +43,11 @@ const Home = () => {
         </div>
 
         <article
-          className="CUSTOM-BG-HOME p-2 rounded-xl shadow-lg flex w-full justify-evenly h-full hover:scale-[1.01] duration-150
+          className="CUSTOM-BG-HOME p-2 rounded-xl shadow-lg flex w-full justify-evenly h-full
             xl:col-start-1 xl:col-end-7 xl:row-start-4 xl:row-end-12 xl:flex-col
             lg:col-start-1 lg:col-end-13 lg:row-start-3 lg:row-end-8 lg:flex-col
             md:col-start-1 md:col-end-13 md:row-start-3 md:row-end-8 md:flex-col
-            sm:col-start-1 sm:col-end-13 sm:row-start-4 sm:row-end-8
+            sm:col-start-1 sm:col-end-13 sm:row-start-3 sm:row-end-8
           "
         >
           <div className="flex justify-center items-center py-3 ">
@@ -78,11 +72,11 @@ const Home = () => {
         </article>
 
         <article
-          className="CUSTOM-BG-HOME p-2 rounded-xl shadow-lg flex justify-evenly hover:scale-[1.01]
+          className="CUSTOM-BG-HOME p-2 rounded-xl shadow-lg flex justify-evenly 
             xl:col-start-7 xl:col-end-13 xl:row-start-4 xl:row-end-12 xl:flex-col
             lg:col-start-1 lg:col-end-13 lg:row-start-8 lg:row-end-13 lg:flex-col
             md:col-start-1 md:col-end-13 md:row-start-8 md:row-end-13 md:flex-col
-            sm:col-start-1 sm:col-end-13 sm:row-start-8 sm:row-end-12 
+            sm:col-start-1 sm:col-end-13 sm:row-start-8 sm:row-end-13 
           "
         >
           <div className="flex justify-center items-center py-3 ">
