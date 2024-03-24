@@ -1,7 +1,5 @@
 import React from "react";
-import Spinner from "../../components/Spinner";
 import { FaArrowUpRightFromSquare } from "react-icons/fa6";
-import { SiHomeassistantcommunitystore } from "react-icons/si";
 
 const Home = () => {
   return (
@@ -15,12 +13,18 @@ const Home = () => {
         <div
           className="flex items-center justify-center w-full"
         >
-          <img src="/logo.webp" alt="logo-img" className="w-52 h-52" />
+          <img src="/logo.webp" alt="logo-img" className=" 
+            h-32 w-32 
+            xl:h-40 xl:w-40
+            lg:h-40 lg:w-40
+            " 
+            
+            />
         </div>
       </div>
 
       <div
-        className="w-full h-full CUSTOM-BG-HOME-2 grid gap-3 p-4 sm:p-1 rounded-t-3xl 
+        className="w-full h-full bg-zinc-100  grid gap-3 p-4 sm:p-1 rounded-t-3xl 
         xl:rounded-none lg:rounded-none md:rounded-none sm:rounded-none
         xl:grid-rows-12 xl:grid-cols-12
         lg:grid-rows-12 lg:grid-cols-12
@@ -29,37 +33,36 @@ const Home = () => {
       "
       >
         <div
-          className="bg-neutral-950 rounded-xl flex items-center justify-center gap-2 p-2
-            xl:col-start-1 xl:col-end-13 xl:row-start-2 xl:row-end-4
+          className="bg-neutral-950 shadow-card rounded-2xl flex items-center gap-2 
+            xl:col-start-2 xl:col-end-12 xl:row-start-2 xl:row-end-4
             lg:col-start-1 lg:col-end-13 lg:row-start-1 lg:row-end-3
             md:col-start-1 md:col-end-13 md:row-start-1 md:row-end-3
             sm:col-start-1 sm:col-end-13 sm:row-start-1 sm:row-end-3
           "
         >
-          <i className="text-orange-400 text-3xl py-3">
-            <SiHomeassistantcommunitystore />
-          </i>
-          <h2 className="text-white text-2xl">Kiosco Colegio San Benito</h2>
+          
+         <div className="px-4">
+            <h2 className="text-white text-xl poppins-bold">Kiosco Colegio San Benito</h2>
+            <p className="text-orange-300">Categorias</p>
+         </div>
         </div>
 
         <article
-          className="CUSTOM-BG-HOME p-2 rounded-xl shadow-lg flex w-full justify-evenly h-full
-            xl:col-start-1 xl:col-end-7 xl:row-start-4 xl:row-end-12 xl:flex-col
+          className="bg-[url('/bg.webp')] shadow-card p-2 rounded-2xl shadow-lg flex w-full justify-evenly h-full
+            xl:col-start-2 xl:col-end-12 xl:row-start-4 xl:row-end-8 xl:flex-col
             lg:col-start-1 lg:col-end-13 lg:row-start-3 lg:row-end-8 lg:flex-col
             md:col-start-1 md:col-end-13 md:row-start-3 md:row-end-8 md:flex-col
             sm:col-start-1 sm:col-end-13 sm:row-start-3 sm:row-end-8
           "
         >
-          <div className="flex justify-center items-center py-3 ">
-            <Spinner text="Tienda - Tienda -" />
-          </div>
+         
 
           <div className="inline-flex justify-center items-center ">
             <div>
               <a
                 href="#"
-                className="text-white flex items-center gap-1 hover:text-orange-300 py-2 px-6 border-2 border-orange-400 rounded-2xl
-                  active:scale-95
+                className="text-zinc-100 poppins-bold flex items-center gap-2 hover:text-orange-500 py-4 px-6 rounded-3xl 
+                  active:scale-95 bg-neutral-950 shadow-card
                 "
               >
                 Ver tienda
@@ -72,23 +75,20 @@ const Home = () => {
         </article>
 
         <article
-          className="CUSTOM-BG-HOME p-2 rounded-xl shadow-lg flex justify-evenly 
-            xl:col-start-7 xl:col-end-13 xl:row-start-4 xl:row-end-12 xl:flex-col
+          className="bg-[url('/bg2.webp')] shadow-card p-2 rounded-2xl shadow-lg flex justify-evenly 
+            xl:col-start-2 xl:col-end-12 xl:row-start-8 xl:row-end-12 xl:flex-col
             lg:col-start-1 lg:col-end-13 lg:row-start-8 lg:row-end-13 lg:flex-col
             md:col-start-1 md:col-end-13 md:row-start-8 md:row-end-13 md:flex-col
             sm:col-start-1 sm:col-end-13 sm:row-start-8 sm:row-end-13 
           "
         >
-          <div className="flex justify-center items-center py-3 ">
-            <Spinner text="Combos - Combos -" />
-          </div>
-
+         
           <div className="inline-flex justify-center items-center">
             <div>
               <a
                 href="#"
-                className="text-white flex items-center gap-1 hover:text-orange-300 py-2 px-6 border-2 border-orange-400 rounded-2xl
-                  active:scale-95
+                className="text-zinc-100 poppins-bold flex items-center gap-2 hover:text-orange-500 py-4 px-6 rounded-3xl 
+                active:scale-95 bg-neutral-950 shadow-card
                 "
               >
                 Ver Combos
