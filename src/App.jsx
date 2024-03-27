@@ -4,7 +4,7 @@ import Home from "./modules/home/Home";
 
 const App = () => {
   return (
-    <div className="CUSTOM-BG-HOME">
+    <div className="bg-zinc-100">
          
 
 

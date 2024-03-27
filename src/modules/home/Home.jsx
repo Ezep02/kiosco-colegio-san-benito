@@ -5,10 +5,10 @@ const Home = () => {
   return (
     <div
       className="
-        h-screen w-full flex flex-col justify-center xl:flex-row lg:flex-row md:flex-row"
+        h-screen w-full flex flex-col justify-center xl:flex-row lg:flex-row md:flex-row pb-3"
     >
       <div
-        className="w-full h-full flex justify-center items-center CUSTOM-BG-HOME"
+        className="w-full h-full flex justify-center items-center CUSTOM-BG-HOME  rounded-b-3xl shadow-card"
       >
         <div
           className="flex items-center justify-center w-full h-full"
@@ -24,8 +24,8 @@ const Home = () => {
       </div>
 
       <div
-        className="w-full h-full bg-zinc-100  grid gap-3 p-4 sm:p-1 rounded-t-3xl 
-        xl:rounded-none lg:rounded-none md:rounded-none sm:rounded-none
+        className="w-full h-full  grid gap-3 p-4 sm:p-1 rounded-t-3xl 
+        xl:rounded-none lg:rounded-none md:rounded-none sm:rounded-none 
         xl:grid-rows-12 xl:grid-cols-12
         lg:grid-rows-12 lg:grid-cols-12
         md:grid-rows-12 md:grid-cols-12
