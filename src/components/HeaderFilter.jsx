@@ -16,10 +16,10 @@ const HeaderFilter = ({
   }, []);
 
   return (
-    <div className="flex gap-3 py-3">
-      <motion.div className="overflow-hidden cursor-grab" ref={carousel}>
+    <div className="flex gap-3 py-3 ">
+      <motion.div className="overflow-hidden cursor-grab " ref={carousel}>
         <motion.div
-          className="flex gap-2 items-center w-full flex-wrap"
+          className="flex gap-2 items-center w-full flex-wrap "
           drag="x"
           dragConstraints={{ right: 0, left: -width }}
         >
@@ -41,7 +41,7 @@ const HeaderFilter = ({
                 <motion.button
                   key={producto}
                   className="cursor-pointer px-3 py-2 rounded-3xl text-neutral-900 bg-neutral-50 text-wrap
-                    poppins-medium  active:scale-95
+                    poppins-medium  active:scale-95  
                   "
                   datatype={tipo}
                   onClick={ButtonHandler}

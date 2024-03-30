@@ -22,15 +22,22 @@ const Tienda = () => {
   };
 
   return (
-    <div className="h-full p-4 bg-zinc-100">
+    <div className="h-full p-4 bg-gray-100">
       <div>
         <h2 className="text-neutral-800 text-7xl poppins-bold-italic">
           Tienda
         </h2>
       </div>
 
-      <div className="w-full flex justify-center">
-        <input type="text" placeholder="buscar" />
+      <div className="w-full flex justify-center ">
+        <input type="text" placeholder="Buscar"  className="
+            w-full 
+            xl:w-1/3 
+            lg:w-1/3
+            md:w-1/2
+            p-2 rounded-xl bg-slate-50 shadow-sm 
+            border-none outline-slate-200"
+          />
       </div>
 
       <div className="w-full flex justify-center">
@@ -44,7 +51,6 @@ const Tienda = () => {
       <div
         className="
             flex h-full w-full 
-            
             rounded-2xl min-h-fit "
       >
         {botonTodosActive ? (
