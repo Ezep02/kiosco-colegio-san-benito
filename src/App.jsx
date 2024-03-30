@@ -4,13 +4,13 @@ import Tienda from "./modules/tienda/Tienda";
 
 const App = () => {
   return (
-    <div className="bg-zinc-100">
+    <div className="">
          
       <Home/>
      
       <Combos/>
 
-      {/* <Tienda/> */}
+      <Tienda/>
     </div>
   );
 };

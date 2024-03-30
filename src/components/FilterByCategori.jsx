@@ -24,30 +24,32 @@ const FilterByCategori = ({ categorie }) => {
   }, [categorie]);
 
   return (
-    <div className="flex gap-2">
+    <div className="flex gap-2 justify-center min-h-80">
       {productoPorCategoria.length > 0 ? (
         <div>
-          <div className="py-2">
+          <div className="py-2 p-2">
             <h2 className="uppercase poppins-semibold-italic">
               {productoPorCategoria[0].categoria}
             </h2>
           </div>
 
-          <div className="flex gap-2 flex-wrap">
-            {productoPorCategoria.map((producto) => (
-              <article
-                key={producto.nombre}
-                className="h-60 w-60 bg-zinc-100 rounded-3xl"
-              >
-                <div className="w-full flex justify-center">
-                  <h3>{producto.nombre}</h3>
-                </div>
+          <div className="flex justify-center w-full ">
+            <div className="flex gap-3 flex-wrap px-2">
+              {productoPorCategoria.map((producto) => (
+                <article
+                  key={producto.nombre}
+                  className="h-56 w-44 bg-neutral-50 shadow-2xl rounded-xl"
+                >
+                  <div className="w-full flex justify-center">
+                    <h3>{producto.nombre}</h3>
+                  </div>
 
-                <div className="p-2">
-                  <h4>${producto.precio}</h4>
-                </div>
-              </article>
-            ))}
+                  <div className="p-2">
+                    <h4>${producto.precio}</h4>
+                  </div>
+                </article>
+              ))}
+            </div>
           </div>
         </div>
       ) : (
