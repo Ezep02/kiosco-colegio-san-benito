@@ -1,0 +1,151 @@
+[
+  {
+    "combos": [
+      {
+        "id": "1",
+        "item_1": "Coca Cola 1.25L",
+        "item_2": "Pebete jamon y queso",
+        "item_3": "Turron",
+        "precio": "3200"
+      },
+      {
+        "id": "2",
+        "item_1": "Helado Vainilla",
+        "item_2": "Sprite 1.50",
+        "item_3": "coca",
+        "precio": "1500"
+      },
+      {
+        "id": "3",
+        "item_1": "coca",
+        "item_2": "coca",
+        "item_3": "coca",
+        "precio": "1200"
+      }
+    ],
+
+    "kiosco_productos": [
+      {
+        "chocolates": [
+          {
+            "nombre": "Chocolate Snickers",
+            "precio": 1.0,
+            "tipo": "Chocolate"
+          },
+          {
+            "nombre": "Chocolate Mars",
+            "precio": 1.1,
+            "tipo": "Chocolate"
+          },
+          {
+            "nombre": "Chocolate Hershey's",
+            "precio": 1.2,
+            "tipo": "Chocolate"
+          }
+        ],
+        "galletas": [
+          {
+            "nombre": "Galletas Oreo",
+            "precio": 1.2,
+            "tipo": "Galletitas"
+          },
+          {
+            "nombre": "Galletas Chips Ahoy",
+            "precio": 1.0,
+            "tipo": "Galletitas"
+          },
+          {
+            "nombre": "Galletas Digestive",
+            "precio": 1.3,
+            "tipo": "Galletitas"
+          }
+        ],
+        "gaseosas": [
+          {
+            "nombre": "Coca-Cola",
+            "precio": 1.5,
+            "tipo": "Caseosas"
+          },
+          {
+            "nombre": "Pepsi",
+            "precio": 1.25,
+            "tipo": "Caseosas"
+          },
+          {
+            "nombre": "Sprite",
+            "precio": 1.2,
+            "tipo": "Caseosas"
+          }
+        ],
+        "helados": [
+          {
+            "nombre": "Helado Magnum",
+            "precio": 2.5,
+            "tipo": "Helados"
+          },
+          {
+            "nombre": "Helado Ben & Jerry's",
+            "precio": 3.0,
+            "tipo": "Helados"
+          },
+          {
+            "nombre": "Helado Cornetto",
+            "precio": 1.8,
+            "tipo": "Helados"
+          }
+        ],
+        "chicles": [
+          {
+            "nombre": "Chicles Trident",
+            "precio": 0.5,
+            "tipo": "Chicles"
+          },
+          {
+            "nombre": "Chicles Orbit",
+            "precio": 0.45,
+            "tipo": "Chicles"
+          },
+          {
+            "nombre": "Chicles Wrigley's",
+            "precio": 0.55,
+            "tipo": "Chicles"
+          }
+        ],
+        "bebidas energeticas": [
+          {
+            "nombre": "Red Bull",
+            "precio": 2.5,
+            "tipo": "Bebidas energiticas"
+          },
+          {
+            "nombre": "Monster",
+            "precio": 2.3,
+            "tipo": "Bebidas energiticas"
+          },
+          {
+            "nombre": "Rockstar",
+            "precio": 2.2,
+            "tipo": "Bebidas energiticas"
+          }
+        ],
+        "galletas saladas": [
+          {
+            "nombre": "Galletas Ritz",
+            "precio": 1.0,
+            "tipo": "Galletitas Saladas"
+          },
+          {
+            "nombre": "Galletas Saltines",
+            "precio": 0.8,
+            "tipo": "Galletitas Saladas"
+          },
+          {
+            "nombre": "Galletas Tuc",
+            "precio": 1.2,
+            "tipo": "Galletitas Saladas"
+          }
+        ]
+      }
+    ]
+  }
+]

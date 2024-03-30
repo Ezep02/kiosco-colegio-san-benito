@@ -5,26 +5,24 @@ const Home = () => {
   return (
     <div
       className="
-        h-screen w-full flex flex-col justify-center xl:flex-row lg:flex-row md:flex-row pb-3"
+        h-screen w-full flex flex-col justify-center xl:flex-row lg:flex-row md:flex-row py-3 px-2"
     >
-      <div
-        className="w-full h-full flex justify-center items-center CUSTOM-BG-HOME  rounded-b-3xl shadow-card"
-      >
-        <div
-          className="flex items-center justify-center w-full h-full"
-        >
-          <img src="/logo.webp" alt="logo-img" className=" 
+      <div className="w-full h-full flex justify-center items-center CUSTOM-BG-HOME rounded-3xl shadow-card">
+        <div className="flex items-center justify-center w-full h-full">
+          <img
+            src="/logo.webp"
+            alt="logo-img"
+            className=" 
             h-32 w-32 
             xl:h-40 xl:w-40
             lg:h-40 lg:w-40
-            " 
-            
-            />
+            "
+          />
         </div>
       </div>
 
       <div
-        className="w-full h-full  grid gap-3 p-4 sm:p-1 rounded-t-3xl 
+        className="w-full h-full grid gap-3 p-4 sm:p-1 rounded-t-3xl 
         xl:rounded-none lg:rounded-none md:rounded-none sm:rounded-none 
         xl:grid-rows-12 xl:grid-cols-12
         lg:grid-rows-12 lg:grid-cols-12
@@ -40,11 +38,12 @@ const Home = () => {
             sm:col-start-1 sm:col-end-13 sm:row-start-1 sm:row-end-3
           "
         >
-          
-         <div className="px-4">
-            <h2 className="text-white text-xl poppins-bold">Kiosco Colegio San Benito</h2>
+          <div className="px-4">
+            <h2 className="text-white text-xl poppins-bold">
+              Kiosco Colegio San Benito
+            </h2>
             <p className="text-orange-300">Categorias</p>
-         </div>
+          </div>
         </div>
 
         <article
@@ -55,8 +54,6 @@ const Home = () => {
             sm:col-start-1 sm:col-end-13 sm:row-start-3 sm:row-end-8
           "
         >
-         
-
           <div className="inline-flex justify-center items-center ">
             <div>
               <a
@@ -82,11 +79,10 @@ const Home = () => {
             sm:col-start-1 sm:col-end-13 sm:row-start-8 sm:row-end-13 
           "
         >
-         
           <div className="inline-flex justify-center items-center">
             <div>
               <a
-                href="#"
+                href="#combos"
                 className="text-zinc-100 poppins-bold flex items-center gap-2 hover:text-orange-500 py-4 px-6 rounded-3xl 
                 active:scale-95 bg-neutral-950 shadow-card
                 "

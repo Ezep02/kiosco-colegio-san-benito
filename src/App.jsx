@@ -1,17 +1,16 @@
-import Header from "./components/Header"
 import Combos from "./modules/combos/Combos";
 import Home from "./modules/home/Home";
+import Tienda from "./modules/tienda/Tienda";
 
 const App = () => {
   return (
     <div className="bg-zinc-100">
          
-
-
       <Home/>
      
-     
       <Combos/>
+
+      {/* <Tienda/> */}
     </div>
   );
 };
