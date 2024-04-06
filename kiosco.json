@@ -26,124 +26,319 @@
 
     "kiosco_productos": [
       {
-        "chocolates": [
+        "alfajores": [
           {
-            "nombre": "Chocolate Snickers",
+            "nombre": "Alfajor Bon o Bon",
             "precio": 1.0,
-            "tipo": "Chocolate"
+            "tipo": "Alfajores",
+            "src": "./alfajores/alfa-1.webp"
           },
           {
-            "nombre": "Chocolate Mars",
+            "nombre": "Coffler Block",
             "precio": 1.1,
-            "tipo": "Chocolate"
+            "tipo": "Alfajores",
+            "src": "./alfajores/alfa-2.webp"
           },
           {
-            "nombre": "Chocolate Hershey's",
+            "nombre": "Aguila Minitorta",
             "precio": 1.2,
-            "tipo": "Chocolate"
+            "tipo": "Alfajores",
+            "src": "./alfajores/alfa-3.webp"
+          },
+          {
+            "nombre": "Guaymallen",
+            "precio": 1.2,
+            "tipo": "Alfajores",
+            "src": "./alfajores/alfa-4.webp"
+          },
+          {
+            "nombre": "Alfajor Jorgito",
+            "precio": 1.2,
+            "tipo": "Alfajores",
+            "src": "./alfajores/alfa-5.webp"
           }
+         
         ],
-        "galletas": [
+        "galletitas": [
           {
-            "nombre": "Galletas Oreo",
+            "nombre": "Pepitos",
             "precio": 1.2,
-            "tipo": "Galletitas"
+            "tipo": "Galletitas",
+            "src": "./galletitas/galle-1.webp"
           },
           {
-            "nombre": "Galletas Chips Ahoy",
+            "nombre": "Chocolinas",
             "precio": 1.0,
-            "tipo": "Galletitas"
+            "tipo": "Galletitas",
+            "src": "./galletitas/galle-2.webp"
           },
           {
-            "nombre": "Galletas Digestive",
-            "precio": 1.3,
-            "tipo": "Galletitas"
+            "nombre": "Rex",
+            "precio": 1.0,
+            "tipo": "Galletitas",
+            "src": "./galletitas/galle-3.webp"
+          },
+          {
+            "nombre": "Hogarenas Salvado",
+            "precio": 1.0,
+            "tipo": "Galletitas",
+            "src": "./galletitas/galle-4.webp"
+          },
+          {
+            "nombre": "BagLey Rellenas",
+            "precio": 1.0,
+            "tipo": "Galletitas",
+            "src": "./galletitas/galle-5.webp"
+          },
+          {
+            "nombre": "Don Satur",
+            "precio": 1.0,
+            "tipo": "Galletitas",
+            "src": "./galletitas/galle-6.webp"
+          },
+          {
+            "nombre": "Formis",
+            "precio": 1.0,
+            "tipo": "Galletitas",
+            "src": "./galletitas/galle-7.webp"
+          },
+          {
+            "nombre": "9 De Oro",
+            "precio": 1.0,
+            "tipo": "Galletitas",
+            "src": "./galletitas/galle-8.webp"
+          },
+          {
+            "nombre": "Rumba",
+            "precio": 1.0,
+            "tipo": "Galletitas",
+            "src": "./galletitas/galle-9.webp"
+          },
+          {
+            "nombre": "Sonrisas",
+            "precio": 1.0,
+            "tipo": "Galletitas",
+            "src": "./galletitas/galle-10.webp"
+          },
+          {
+            "nombre": "Merengadas",
+            "precio": 1.0,
+            "tipo": "Galletitas",
+            "src": "./galletitas/galle-11.webp"
+          },
+          {
+            "nombre": "Opera",
+            "precio": 1.0,
+            "tipo": "Galletitas",
+            "src": "./galletitas/galle-12.webp"
+          },
+          {
+            "nombre": "Mini Oreo",
+            "precio": 1.0,
+            "tipo": "Galletitas",
+            "src": "./galletitas/galle-13.webp"
           }
         ],
-        "gaseosas": [
+        "bebidas": [
           {
-            "nombre": "Coca-Cola",
+            "nombre": "Agua Villamanaos",
             "precio": 1.5,
-            "tipo": "Caseosas"
+            "tipo": "Bebidas",
+            "src": "./bebidas/bebida-1.webp"
+          },
+          {
+            "nombre": "Levite Cero",
+            "precio": 1.25,
+            "tipo": "Bebidas",
+            "src": "./bebidas/bebida-2.webp"
+          },
+          {
+            "nombre": "Baggio",
+            "precio": 1.2,
+            "tipo": "Bebidas",
+            "src": "./bebidas/bebida-3.webp"
+          },
+          {
+            "nombre": "Coca-cola",
+            "precio": 1.2,
+            "tipo": "Bebidas",
+            "src": "./bebidas/bebida-4.webp"
           },
           {
             "nombre": "Pepsi",
-            "precio": 1.25,
-            "tipo": "Caseosas"
-          },
-          {
-            "nombre": "Sprite",
             "precio": 1.2,
-            "tipo": "Caseosas"
+            "tipo": "Bebidas",
+            "src": "./bebidas/bebida-5.webp"
           }
         ],
-        "helados": [
+        "Chocolates": [
           {
-            "nombre": "Helado Magnum",
-            "precio": 2.5,
-            "tipo": "Helados"
-          },
-          {
-            "nombre": "Helado Ben & Jerry's",
-            "precio": 3.0,
-            "tipo": "Helados"
-          },
-          {
-            "nombre": "Helado Cornetto",
-            "precio": 1.8,
-            "tipo": "Helados"
-          }
-        ],
-        "chicles": [
-          {
-            "nombre": "Chicles Trident",
-            "precio": 0.5,
-            "tipo": "Chicles"
-          },
-          {
-            "nombre": "Chicles Orbit",
-            "precio": 0.45,
-            "tipo": "Chicles"
-          },
-          {
-            "nombre": "Chicles Wrigley's",
-            "precio": 0.55,
-            "tipo": "Chicles"
-          }
-        ],
-        "bebidas energeticas": [
-          {
-            "nombre": "Red Bull",
-            "precio": 2.5,
-            "tipo": "Bebidas energiticas"
-          },
-          {
-            "nombre": "Monster",
-            "precio": 2.3,
-            "tipo": "Bebidas energiticas"
-          },
-          {
-            "nombre": "Rockstar",
-            "precio": 2.2,
-            "tipo": "Bebidas energiticas"
-          }
-        ],
-        "galletas saladas": [
-          {
-            "nombre": "Galletas Ritz",
+            "nombre": "Bon o Bon",
             "precio": 1.0,
-            "tipo": "Galletitas Saladas"
+            "tipo": "Chocolate",
+            "src": "./chocolates/choco-1.webp"
           },
           {
-            "nombre": "Galletas Saltines",
-            "precio": 0.8,
-            "tipo": "Galletitas Saladas"
+            "nombre": "Rocklets",
+            "precio": 1.0,
+            "tipo": "Chocolate",
+            "src": "./chocolates/choco-2.webp"
           },
           {
-            "nombre": "Galletas Tuc",
-            "precio": 1.2,
-            "tipo": "Galletitas Saladas"
+            "nombre": "Rocklets Mini",
+            "precio": 1.0,
+            "tipo": "Chocolate",
+            "src": "./chocolates/choco-3.webp"
+          },
+          {
+            "nombre": "Sapito",
+            "precio": 1.0,
+            "tipo": "Chocolate",
+            "src": "./chocolates/choco-4.webp"
+          },
+          {
+            "nombre": "Tita",
+            "precio": 1.0,
+            "tipo": "Chocolate",
+            "src": "./chocolates/choco-5.webp"
+          },
+          {
+            "nombre": "Feeling Felfort",
+            "precio": 1.0,
+            "tipo": "Chocolate",
+            "src": "./chocolates/choco-6.webp"
+          },
+          {
+            "nombre": "Bon o Bon Barrita",
+            "precio": 1.0,
+            "tipo": "Chocolate",
+            "src": "./chocolates/choco-7.webp"
+          },
+          {
+            "nombre": "Rhodesia",
+            "precio": 1.0,
+            "tipo": "Chocolate",
+            "src": "./chocolates/choco-8.webp"
+          },
+          {
+            "nombre": "Chocolate Coffler",
+            "precio": 1.0,
+            "tipo": "Chocolate",
+            "src": "./chocolates/choco-9.webp"
           }
+        ],
+        "Golosinas": [
+          {
+            "nombre": "Bull Dog",
+            "precio": 1.0,
+            "tipo": "Golosinas",
+            "src": "./golosinas/golo-1.webp"
+          },
+          {
+            "nombre": "Gongys",
+            "precio": 1.0,
+            "tipo": "Golosinas",
+            "src": "./golosinas/golo-2.webp"
+          },
+          {
+            "nombre": "Gomitas",
+            "precio": 1.0,
+            "tipo": "Golosinas",
+            "src": "./golosinas/golo-3.webp"
+          },
+          {
+            "nombre": "Bull Dog Tutti Frutti",
+            "precio": 1.0,
+            "tipo": "Golosinas",
+            "src": "./golosinas/golo-4.webp"
+          },
+          {
+            "nombre": "Gomitas Eucalipto",
+            "precio": 1.0,
+            "tipo": "Golosinas",
+            "src": "./golosinas/golo-5.webp"
+          },
+          {
+            "nombre": "Dientitos",
+            "precio": 1.0,
+            "tipo": "Golosinas",
+            "src": "./golosinas/golo-6.webp"
+          },
+          {
+            "nombre": "Menthoplus",
+            "precio": 1.0,
+            "tipo": "Golosinas",
+            "src": "./golosinas/golo-7.webp"
+          },
+          {
+            "nombre": "Lenguetazo",
+            "precio": 1.0,
+            "tipo": "Golosinas",
+            "src": "./golosinas/golo-8.webp"
+          },
+          {
+            "nombre": "Mielcita",
+            "precio": 1.0,
+            "tipo": "Golosinas",
+            "src": "./golosinas/golo-9.webp"
+          },
+          {
+            "nombre": "Turron De Mani",
+            "precio": 1.0,
+            "tipo": "Golosinas",
+            "src": "./golosinas/golo-10.webp"
+          },
+          {
+            "nombre": "Gomitas De Frambuesa",
+            "precio": 1.0,
+            "tipo": "Golosinas",
+            "src": "./golosinas/golo-11.webp"
+          },
+          {
+            "nombre": "Yapa",
+            "precio": 1.0,
+            "tipo": "Golosinas",
+            "src": "./golosinas/golo-12.webp"
+          },
+          {
+            "nombre": "Pico Dulce",
+            "precio": 1.0,
+            "tipo": "Golosinas",
+            "src": "./golosinas/golo-13.webp"
+          }
+        ],
+        "Snacks": [
+          {
+            "nombre": "Saladix Jamon",
+            "precio": 1.0,
+            "tipo": "Snacks",
+            "src":"./snacks/snack-1.webp"
+          },
+          {
+            "nombre": "Papas Fritas Slice",
+            "precio": 1.0,
+            "tipo": "Snacks",
+            "src":"./snacks/snack-2.webp"
+          },
+          {
+            "nombre": "Saladix Jamon y Queso",
+            "precio": 1.0,
+            "tipo": "Snacks",
+            "src":"./snacks/snack-3.webp"
+          },
+          {
+            "nombre": "Saladix Sabor Pizza",
+            "precio": 1.0,
+            "tipo": "Snacks",
+            "src":"./snacks/snack-4.webp"
+          },
+          {
+            "nombre": "Saladix Sabor Original",
+            "precio": 1.0,
+            "tipo": "Snacks",
+            "src":"./snacks/snack-5.webp"
+          }
+          
         ]
       }
     ]

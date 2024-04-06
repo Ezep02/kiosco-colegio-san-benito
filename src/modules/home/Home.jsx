@@ -57,7 +57,7 @@ const Home = () => {
           <div className="inline-flex justify-center items-center ">
             <div>
               <a
-                href="#"
+                href="#tienda"
                 className="text-zinc-100 poppins-bold flex items-center gap-2 hover:text-orange-500 py-4 px-6 rounded-3xl 
                   active:scale-95 bg-neutral-950 shadow-card
                 "

@@ -16,42 +16,44 @@ const FilterByCategori = ({ categorie }) => {
             nombre: value.nombre,
             precio: value.precio,
             tipo: value.tipo,
+            src: value.src
           };
         })
     );
 
     setproductoPorCategoria(i);
   }, [categorie]);
+  console.log(productoPorCategoria)
 
   return (
-    <div className="flex gap-2 justify-center min-h-80">
+    <div className="flex gap-2 justify-center min-h-80 p-4">
       {productoPorCategoria.length > 0 ? (
-        <div>
-          <div className="py-2 p-2">
-            <h2 className="uppercase poppins-semibold-italic">
-              {productoPorCategoria[0].categoria}
-            </h2>
-          </div>
-
-          <div className="flex justify-center w-full ">
-            <div className="flex gap-3 flex-wrap px-2">
-              {productoPorCategoria.map((producto) => (
+        <div className="flex py-3 gap-2 justify-center min-h-80 w-full flex-wrap">
+        {productoPorCategoria.map((e) => (
+          <div key={e.nombre}>
+            <div className="flex justify-center">
+                
                 <article
-                  key={producto.nombre}
-                  className="h-56 w-44 bg-neutral-50 shadow-2xl rounded-xl"
+                  key={e.precio}
+                  className="h-56 w-44 bg-white shadow-lg rounded-xl flex-col gap-2"
                 >
-                  <div className="w-full flex justify-center">
-                    <h3>{producto.nombre}</h3>
+                  <div className="flex justify-center py-4 h-2/3 w-full">
+                    <img src={e.src} className="h-full w-full object-contain rounded-full " alt="" />
                   </div>
-
+  
+                  <div className="w-full flex justify-center poppins-semibold text-sm">
+                    <h3>{e.nombre}</h3>
+                  </div>
+  
                   <div className="p-2">
-                    <h4>${producto.precio}</h4>
+                    <h4>${e.precio}</h4>
                   </div>
                 </article>
-              ))}
+            
             </div>
           </div>
-        </div>
+        ))}
+      </div>
       ) : (
         <p>Problema al aplicar el filtro</p>
       )}
